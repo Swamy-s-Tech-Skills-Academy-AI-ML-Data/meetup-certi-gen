@@ -1,17 +1,17 @@
 <!-- website/templates/navbar.html -->
-<nav class="bg-sky-100 text-sky-800 shadow-md">
+<nav class="bg-blue-500 text-gray-900 shadow-md">
     <div class="container mx-auto px-4 py-2 flex justify-between items-center">
         <a href="/"
-            class="text-xl font-bold px-4 py-1 rounded transition-colors duration-200 hover:bg-sky-300  {% if request.path == '/' %} active-tab {% endif %}">
+            class="text-xl font-bold px-4 py-1 rounded transition-colors duration-200 hover:bg-blue-400  {% if request.path == '/' %} active-tab {% endif %}">
             Certification Generator
         </a>
         <div class="space-x-4">
             <a href="/stchatbot"
-                class="px-4 py-2 rounded transition-colors duration-200 hover:bg-sky-300  font-bold {% if request.path == '/stchatbot' %} active-tab {% endif %}">
+                class="px-4 py-2 rounded transition-colors duration-200 hover:bg-blue-400 hover:text-gray-900 font-bold {% if request.path == '/stchatbot' %} active-tab {% endif %}">
                 ST Chat Bot
             </a>
             <a href="/history"
-                class="px-4 py-2 rounded transition-colors duration-200 hover:bg-sky-300  font-bold {% if request.path == '/history' %} active-tab {% endif %}">
+                class="px-4 py-2 rounded transition-colors duration-200 hover:bg-blue-400  font-bold {% if request.path == '/history' %} active-tab {% endif %}">
                 Search History
             </a>
             <button
