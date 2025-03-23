@@ -135,9 +135,9 @@ INSTALLED_APPS = [
 ]
 ```
 
-### **2.5 Verify the Changes**
+### 2.5 Verify the Changes
 
-1. **Run Migrations:**  
+1. Run Migrations:  
    This step ensures that Django recognizes your new apps and creates the necessary database tables.
 
    ```powershell
@@ -145,16 +145,24 @@ INSTALLED_APPS = [
    python manage.py migrate
    ```
 
-2. **Create a Superuser (if not already created):**
+![Initial Migrations](./Images/InitialMigrations_23Mar.PNG)
+
+1. Create a Superuser (if not already created):
 
    ```powershell
    python manage.py createsuperuser
    ```
 
-3. **Run the Development Server:**
+![User Admin User](./Images/SuperAdminUser.PNG)
+
+1. Run the Development Server:
 
    ```powershell
    python manage.py runserver
    ```
 
+   <http://127.0.0.1:8000/>
+
    Open your browser at `http://127.0.0.1:8000/admin/` to verify that the Django admin panel is working and that your new apps are registered (they may appear empty until you add models).
+
+![Initial Execution](./Images/InitialExecution_23Mar.PNG)
