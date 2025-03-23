@@ -2,6 +2,8 @@
 
 This repository will generate the certificate for the speakers, volunteers, media team and participants etc.
 
+> 1. Icon made by Pixel perfect from `www.flaticon.com`.
+
 ## UI
 
 > 1. Image will come here
