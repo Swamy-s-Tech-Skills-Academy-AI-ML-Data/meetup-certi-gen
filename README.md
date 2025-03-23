@@ -24,3 +24,10 @@ pip install flask openai python-dotenv flask_sqlalchemy
 pip freeze > requirements.txt
 pip install -r .\requirements.txt
 ```
+
+## Tailwind
+
+```powershell
+py -m pip install django-tailwind
+
+```
