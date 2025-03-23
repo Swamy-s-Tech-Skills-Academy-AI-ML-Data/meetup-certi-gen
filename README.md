@@ -28,10 +28,6 @@ pip install -r .\requirements.txt
 ## Tailwind
 
 ```powershell
-
-py manage.py startapp theme
-
-
 py -m pip install django-tailwind
 
 py -m pip list | findstr django-tailwind
@@ -39,5 +35,4 @@ py -m pip list | findstr django-tailwind
 py manage.py tailwind init
 py manage.py tailwind install
 py manage.py tailwind build
-
 ```
