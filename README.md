@@ -20,6 +20,7 @@ python -m venv .venv
 python -m pip install --upgrade pip
 
 pip install flask openai python-dotenv flask_sqlalchemy
+py -m pip install Django
 
 pip freeze > requirements.txt
 pip install -r .\requirements.txt
